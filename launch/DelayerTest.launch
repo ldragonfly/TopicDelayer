@@ -1,0 +1,4 @@
+<launch>
+	<node name="Delayer" pkg="TopicDelayer" type="Delayer" />
+	<node name="TestTopicPublisher" pkg="TopicDelayer" type="TestTopicPublisher" />
+</launch>
